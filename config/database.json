@@ -1,0 +1,16 @@
+{
+    "mysql":{
+        "username":"root",
+        "password":"",
+        "host":"127.0.0.1",
+        "port":"3306",
+        "database":""
+    },
+    "mongo":{
+        "username":"",
+        "password":"",
+        "host":"127.0.0.1",
+        "port":"27017",
+        "connect" : "mongodb://localhost:27017/tutorial"
+    }
+}
