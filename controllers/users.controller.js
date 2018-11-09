@@ -46,6 +46,6 @@ exports.delete = function(req, res, next){
 exports.update = function(req, res, next){
     Users.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, user) {
         if (err) return next(err);
-        res.send('User udpated.');
+        res.send('User Updated.');
     });
 }
